@@ -176,3 +176,6 @@ message = HumanMessage(
 
 result = full_chain.invoke([message])
 print(result)
+
+# this code is for rag and use it for other models 
+#hi ishaque

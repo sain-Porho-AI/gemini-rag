@@ -47,6 +47,9 @@ def main():
     # formatted_response = f"Response: {response_text}\nSources: {sources}"
     # print(formatted_response)
     print(results)
+    doc = results[0]
+    print(type(results))
+    print(doc.page_content)
 
 
 if __name__ == "__main__":
